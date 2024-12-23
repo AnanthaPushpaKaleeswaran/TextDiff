@@ -1,0 +1,6 @@
+E:\Ananth\repos\OutputDocker\Docker\TextDiff.exe
+E:\Ananth\repos\OutputDocker\Docker\TextDiff.dll
+E:\Ananth\repos\OutputDocker\Docker\TextDiff.deps.json
+E:\Ananth\repos\OutputDocker\Docker\TextDiff.runtimeconfig.json
+E:\Ananth\repos\OutputDocker\Docker\TextDiff.pdb
+E:\Ananth\repos\OutputDocker\Docker\Newtonsoft.Json.dll

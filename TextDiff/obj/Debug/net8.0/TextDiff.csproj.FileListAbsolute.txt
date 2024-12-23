@@ -1,0 +1,17 @@
+E:\Ananth\repos\TextDiff\TextDiff\bin\Debug\net8.0\TextDiff.exe
+E:\Ananth\repos\TextDiff\TextDiff\bin\Debug\net8.0\TextDiff.deps.json
+E:\Ananth\repos\TextDiff\TextDiff\bin\Debug\net8.0\TextDiff.runtimeconfig.json
+E:\Ananth\repos\TextDiff\TextDiff\bin\Debug\net8.0\TextDiff.dll
+E:\Ananth\repos\TextDiff\TextDiff\bin\Debug\net8.0\TextDiff.pdb
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\TextDiff.csproj.AssemblyReference.cache
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\TextDiff.GeneratedMSBuildEditorConfig.editorconfig
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\TextDiff.AssemblyInfoInputs.cache
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\TextDiff.AssemblyInfo.cs
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\TextDiff.csproj.CoreCompileInputs.cache
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\TextDiff.csproj.Up2Date
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\TextDiff.dll
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\refint\TextDiff.dll
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\TextDiff.pdb
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\TextDiff.genruntimeconfig.cache
+E:\Ananth\repos\TextDiff\TextDiff\obj\Debug\net8.0\ref\TextDiff.dll
+E:\Ananth\repos\TextDiff\TextDiff\bin\Debug\net8.0\Newtonsoft.Json.dll

@@ -1,0 +1,6 @@
+E:\Ananth\repos\TextDiff\TextDiff\bin\Release\net8.0\publish\TextDiff.exe
+E:\Ananth\repos\TextDiff\TextDiff\bin\Release\net8.0\publish\TextDiff.dll
+E:\Ananth\repos\TextDiff\TextDiff\bin\Release\net8.0\publish\TextDiff.deps.json
+E:\Ananth\repos\TextDiff\TextDiff\bin\Release\net8.0\publish\TextDiff.runtimeconfig.json
+E:\Ananth\repos\TextDiff\TextDiff\bin\Release\net8.0\publish\TextDiff.pdb
+E:\Ananth\repos\TextDiff\TextDiff\bin\Release\net8.0\publish\Newtonsoft.Json.dll
