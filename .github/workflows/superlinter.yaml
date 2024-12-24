@@ -1,0 +1,33 @@
+name: Build and Publish .NET Application
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Setup .NET SDK
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 8.0 # Use your desired .NET version
+
+    # Install dependencies
+    - name: Install dependencies
+      run: dotnet restore
+
+    # Build the application
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+
+    # Publish the application
+    - name: Publish
+      run: dotnet publish -c Release -o ./TextDiff/publish
