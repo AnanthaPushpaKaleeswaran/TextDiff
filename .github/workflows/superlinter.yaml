@@ -42,4 +42,4 @@ jobs:
 
     - name: Build Docker image
       run: |
-        wsl docker build -t gittextdiff .
+        docker build -t gittextdiff .
