@@ -40,8 +40,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - name: Clean up unused images
+      run: docker image prune -f
+
     - name: Build Docker image
-      run: |
-        COMMIT_HASH=$(git rev-parse --short HEAD)
-        IMAGE_TAG="jenkinstextdiff:$COMMIT_HASH"
-        docker build -f ./TextDiff/Dockerfile -t jenkinstextdiff:latest -t $IMAGE_TAG .
+      run: docker build --no-cache -f ./TextDiff/Dockerfile -t gitdiff
