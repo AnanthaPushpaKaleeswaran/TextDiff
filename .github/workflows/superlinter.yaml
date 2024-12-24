@@ -42,4 +42,6 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -f ./TextDiff/Dockerfile -t myapp:latest .
+        COMMIT_HASH=$(git rev-parse --short HEAD)
+        IMAGE_TAG="jenkinstextdiff:$COMMIT_HASH"
+        docker build -t jenkinstextdiff:latest -t $IMAGE_TAG .
