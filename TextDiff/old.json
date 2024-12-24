@@ -143,7 +143,6 @@
           "name": "Microsoft.Toolkit"
         }
       ],
-      "name": "CommunityToolkit.Common",
       "version": "7.1.2",
       "description": "This package includes .NET Standard code only helpers such as:\n      - IncrementalLoadingCollection: Simplifies the definition and usage of collections whose items can be loaded incrementally only when needed by the view.\n      - String extensions and array extensions: These extensions make working with string and arrays easier.",
       "scope": "required",
@@ -371,7 +370,6 @@
           "name": "Microsoft.Toolkit"
         }
       ],
-      "name": "CommunityToolkit.WinUI.UI.Controls.Input",
       "version": "7.1.2",
       "description": "This library provides XAML templated controls. It is a part of the Windows Community Toolkit.\n\n      Controls:\n        - ColorPicker/ColorPickerButton: Improved ColorPicker and DropDownButton version.\n        - RadialGauge: Displays a value within a range, using a needle on a circular face.\n        - RangeSelector: \u0022Double slider\u0022 control for range values.\n        - RemoteDevicePicker: Remote Device Picker Control for Project Rome.\n        - RichSuggestBox: RichEditBox which supports at mentioning or tags.\n        - TokenizingTextBox: An AutoSuggestBox like control which places entered input into easily removed containers for contacts or tags.",
       "scope": "required",
