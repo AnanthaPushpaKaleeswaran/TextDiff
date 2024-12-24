@@ -42,4 +42,4 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -f TextDiff/TextDiff/Dockerfile -t gittextdiff .
+        docker build -f ./TextDiff/Dockerfile -t gittextdiff .
