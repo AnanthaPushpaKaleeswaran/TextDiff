@@ -59,14 +59,14 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:nuget/ColorCode.Core@2.0.12",
+      "bom-ref": "pkg:nuget/ColorCode.Core@2.0.13",
       "authors": [
         {
           "name": "Microsoft, William Bradley"
         }
       ],
       "name": "ColorCode.Core",
-      "version": "2.0.12",
+      "version": "2.0.13",
       "description": "The Core Library, containing the Parser, and the classes to create your own formatter.",
       "scope": "required",
       "hashes": [
