@@ -22,14 +22,14 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "pkg:nuget/AsyncIO@0.1.68",
+      "bom-ref": "pkg:nuget/AsyncIO@0.1.69",
       "authors": [
         {
           "name": "AsyncIO"
         }
       ],
       "name": "AsyncIO",
-      "version": "0.1.68",
+      "version": "0.1.69",
       "description": "Package Description",
       "scope": "required",
       "hashes": [
