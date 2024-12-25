@@ -40,9 +40,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Clean up unused images
-      run: docker image prune -f
-
     - name: Build Docker image
-      run: docker build . -f ./TextDiff/Dockerfile -t gittextdiff
+      run: | 
+            docker build . -f ./TextDiff/Dockerfile -t gittextdiff:latest
+            docker save -o E:/Ananth/tarfiles/gittextdiff.tar gittextdiff:latest
+
+    - name: Load tar file
+      run: docker load -i E:/Ananth/tarfiles/gittextdiff.tar
 
