@@ -51,4 +51,7 @@ jobs:
 
     - name: Pull the docker image
       run: docker pull ${{ secrets.DOCKER_USERNAME }}/gittextdiff:latest
+
+    - name: Verify the docker images
+      run: docker images
             
