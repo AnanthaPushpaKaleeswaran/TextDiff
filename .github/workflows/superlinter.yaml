@@ -48,4 +48,7 @@ jobs:
 
     - name: Push the docker image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/gittextdiff:latest
+
+    - name: Pull the docker image
+      run: docker pull ${{ secrets.DOCKER_USERNAME }}/gittextdiff:latest
             
