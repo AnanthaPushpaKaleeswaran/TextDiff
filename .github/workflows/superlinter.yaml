@@ -4,12 +4,10 @@ on:
   push:
     branches:
       - main
-env: 
-  imageName: gitdiff
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     # Checkout the code
@@ -46,7 +44,5 @@ jobs:
       run: docker image prune -f
 
     - name: Build Docker image
-      run: docker build . -f ./TextDiff/Dockerfile -t $imageName
+      run: docker build . -f ./TextDiff/Dockerfile -t gittextdiff
 
-    - name: Tag the image
-      run : docker tag $imageName $imageName:latest
