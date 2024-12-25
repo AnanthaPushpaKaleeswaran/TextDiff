@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+env: 
+  imageName: gitdiff
 
 jobs:
   build:
@@ -44,11 +46,7 @@ jobs:
       run: docker image prune -f
 
     - name: Build Docker image
-      run: |
-          # Generate unique tags
-          COMMIT_HASH=$(git rev-parse --short HEAD)
-          IMAGE_NAME="gitdiff"
-          TIMESTAMP=$(date +%Y%m%d%H%M%S)
-  
-          # Build the image with both unique and 'latest' tags
-          docker build --no-cache -f ./TextDiff/Dockerfile -t $IMAGE_NAME:latest -t $IMAGE_NAME:$COMMIT_HASH -t $IMAGE_NAME:$TIMESTAMP .
+      run: docker build . -f ./TextDiff/Dockerfile -t $imageName
+
+    - name: Tag the image
+      run : docker tag $imageName $imageName:latest
