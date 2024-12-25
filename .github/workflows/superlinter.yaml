@@ -45,5 +45,5 @@ jobs:
             docker build . -f ./TextDiff/Dockerfile -t gittextdiff:latest
             
     - name: Save the image
-      run: docker save gittextdiff:latest > gittextdiff.tar
+      run: docker save gittextdiff:latest > "E:\Ananth\tarfiles\gittextdiff.tar"
 
