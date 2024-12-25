@@ -45,5 +45,4 @@ jobs:
             docker build . -f ./TextDiff/Dockerfile -t gittextdiff:latest
             
     - name: Save the image
-      run: docker save gittextdiff:latest > "E:\Ananth\tarfiles\gittextdiff.tar"
-
+      run: docker save gittextdiff:latest | Out-File -FilePath "E:\Ananth\tarfiles\gittextdiff.tar" -Encoding Byte
