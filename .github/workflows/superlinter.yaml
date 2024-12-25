@@ -43,14 +43,14 @@ jobs:
     - name: Build Docker image
       run: | 
             docker build . -f ./TextDiff/Dockerfile -t gittextdiff:latest
-            docker save -o "E:/Ananth/tarfiles/gittextdiff.tar" gittextdiff:latest
+            docker save -o gittextdiff.tar gittextdiff:latest
 
     - name: Upload Image
       uses: actions/upload-artifact@v3
       with:
         name: gitdiff-image
-        path: E:/Ananth/tarfiles/gittextdiff.tar
+        path: gittextdiff.tar
 
     - name: Load tar file
-      run: docker load < E:/Ananth/tarfiles/gittextdiff.tar
+      run: docker load < gittextdiff.tar
 
